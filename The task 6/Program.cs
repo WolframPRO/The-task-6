@@ -52,11 +52,13 @@ namespace The_task_6
                 Console.Write(mass[i] + " ");
             }
 
+            Console.WriteLine();
+
             for (int i = 1; i < N; i++)
             {
                 if (Math.Abs(mass[i] - mass[i - 1]) < E)
                 {
-                    Console.WriteLine(n + "- удовлетворяет условию");
+                    Console.WriteLine(n+1 + "- удовлетворяет условию");
                     n++;
                 }
             }
